@@ -1,13 +1,16 @@
-package org.example.RestaurantMenu;
+package org.example.Patterns.BuilderPattern;
 
-import org.example.RestaurantMenu.domain.*;
-import org.example.RestaurantMenu.domain.entities.Complement;
-import org.example.RestaurantMenu.domain.entities.Dish;
-import org.example.RestaurantMenu.domain.entities.Entrant;
-import org.example.RestaurantMenu.domain.entities.MainCourse;
-import org.example.RestaurantMenu.menuSteps.*;
+import org.example.Patterns.BuilderPattern.domain.*;
+import org.example.Patterns.BuilderPattern.domain.entities.Complement;
+import org.example.Patterns.BuilderPattern.domain.entities.Dish;
+import org.example.Patterns.BuilderPattern.domain.entities.Entrant;
+import org.example.Patterns.BuilderPattern.domain.entities.MainCourse;
+import org.example.Patterns.BuilderPattern.menuSteps.BuildStep;
+import org.example.Patterns.BuilderPattern.menuSteps.EntrantStep;
+import org.example.Patterns.BuilderPattern.menuSteps.FirstStep;
+import org.example.Patterns.BuilderPattern.menuSteps.MainCourseStep;
 
-public class MenuBuilder implements FirstStep, EntrantStep, MainCourseStep, BuildStep{
+public class MenuBuilder implements FirstStep, EntrantStep, MainCourseStep, BuildStep {
 
 
     private Dish currentDish;

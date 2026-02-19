@@ -1,6 +1,6 @@
-package org.example.RestaurantMenu.domain;
+package org.example.Patterns.BuilderPattern.domain;
 
-import org.example.RestaurantMenu.domain.entities.Dish;
+import org.example.Patterns.BuilderPattern.domain.entities.Dish;
 
 public class Menu {
 

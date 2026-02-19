@@ -1,4 +1,4 @@
-package org.example.RestaurantMenu.domain.entities;
+package org.example.Patterns.BuilderPattern.domain.entities;
 
 import java.util.ArrayList;
 import java.util.List;

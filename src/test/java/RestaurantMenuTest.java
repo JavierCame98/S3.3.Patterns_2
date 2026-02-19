@@ -1,7 +1,5 @@
-package BuilderTest;
-
-import org.example.RestaurantMenu.MenuBuilder;
-import org.example.RestaurantMenu.domain.Menu;
+import org.example.Patterns.BuilderPattern.MenuBuilder;
+import org.example.Patterns.BuilderPattern.domain.Menu;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

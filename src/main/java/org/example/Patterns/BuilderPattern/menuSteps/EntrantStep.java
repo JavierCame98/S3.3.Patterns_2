@@ -1,4 +1,4 @@
-package org.example.RestaurantMenu.menuSteps;
+package org.example.Patterns.BuilderPattern.menuSteps;
 
 public interface EntrantStep {
     EntrantStep isVegan();

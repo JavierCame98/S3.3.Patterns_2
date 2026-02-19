@@ -1,4 +1,4 @@
-package org.example.RestaurantMenu.domain.entities;
+package org.example.Patterns.BuilderPattern.domain.entities;
 
 public class Complement extends Dish {
     public Complement(String name) {
